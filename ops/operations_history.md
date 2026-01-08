@@ -1,5 +1,9 @@
 # Operations History
 
+## 2026-01-08 13:07:37 — codex-1
+Push attempt failed due to DNS resolution (`github.com`). Files touched: `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 13:05:56 — codex-1
 Attempted GH CLI access to repo; connection to api.github.com failed. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
 
