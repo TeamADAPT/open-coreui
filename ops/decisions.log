@@ -1,5 +1,9 @@
 # Decisions Log
 
+## 2026-01-08 12:57:05 — codex-1
+Decision recorded: Push `working` branch with deploy scripts and ignore runtime database files to satisfy push protection. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 12:56:36 — codex-1
 Decision recorded: Exclude deploy database files from version control to satisfy push protection; add deploy runtime artifacts to `.gitignore`. Files touched: `.gitignore`, `deploy/data.sqlite3`, `deploy/data.sqlite3.backup.before_restore.20260106-222333`, `ops/operations_history.md`, `ops/decisions.log`.
 

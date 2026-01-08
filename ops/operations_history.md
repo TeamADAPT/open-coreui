@@ -1,5 +1,9 @@
 # Operations History
 
+## 2026-01-08 12:57:05 — codex-1
+Pushed `working` branch after removing deploy databases from version control. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 12:56:36 — codex-1
 Removed deploy database files from staged commit and added deploy/runtime artifacts to `.gitignore`. Files touched: `.gitignore`, `deploy/data.sqlite3`, `deploy/data.sqlite3.backup.before_restore.20260106-222333`, `ops/operations_history.md`, `ops/decisions.log`.
 
