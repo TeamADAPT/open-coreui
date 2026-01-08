@@ -1,5 +1,9 @@
 # Operations History
 
+## 2026-01-08 12:59:00 — codex-1
+Staged additional project files for commit per user request. Files touched: `CLAUDE.md`, `package.json`, `package-lock.json`, `playwright.config.ts`, `tests/`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 12:57:05 — codex-1
 Pushed `working` branch after removing deploy databases from version control. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
 
