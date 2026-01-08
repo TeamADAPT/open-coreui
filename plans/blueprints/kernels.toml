@@ -1,0 +1,50 @@
+# Kernel Registry Specification
+
+[registry]
+format_version = "1.0"
+abi_hash_algo = "sha256"
+
+[[kernel]]
+name = "embedding.encode"
+kernel_id = "embeddings.encode"
+semver = "0.1.0"
+abi_hash = "<sha256>"
+wit_path = "plans/blueprints/wit/contracts.wit"
+entry = "kernel_exec.exec"
+input_format = "application/json"
+output_format = "application/json"
+execution = "wasi-nn"
+
+[kernel.resources]
+timeout_ms = 30000
+memory_mb = 2048
+
+[[kernel]]
+name = "rerank.cross_encoder"
+kernel_id = "rerank.cross_encoder"
+semver = "0.1.0"
+abi_hash = "<sha256>"
+wit_path = "plans/blueprints/wit/contracts.wit"
+entry = "kernel_exec.exec"
+input_format = "application/json"
+output_format = "application/json"
+execution = "wasi-nn"
+
+[kernel.resources]
+timeout_ms = 60000
+memory_mb = 4096
+
+[[kernel]]
+name = "image.generate"
+kernel_id = "image.generate"
+semver = "0.1.0"
+abi_hash = "<sha256>"
+wit_path = "plans/blueprints/wit/contracts.wit"
+entry = "kernel_exec.exec"
+input_format = "application/json"
+output_format = "application/json"
+execution = "wasi-gpu"
+
+[kernel.resources]
+timeout_ms = 120000
+memory_mb = 8192

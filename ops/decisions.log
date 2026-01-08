@@ -1,0 +1,39 @@
+# Decisions Log
+
+## 2026-01-08 12:52:23 — codex-1
+Decision recorded: Align repo agent protocol with Git/worktree and GH CLI instructions. Files touched: `AGENTS.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 12:37:03 — codex-1
+Decision recorded: Add repo-level agent protocol file and align git workflow expectations. Files touched: `AGENTS.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 12:22:37 — codex-1
+Decision recorded: Publish consolidated implementation roadmap aligned to Phases 2–6. Files touched: `plans/implementation_roadmap.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 12:21:18 — codex-1
+Decision recorded: Deliver Phase 4 WASM64 runtime plane blueprint and Phase 6 collaboration API/UI blueprint. Files touched: `plans/blueprints/runtime_wasm/runtime_plane.md`, `plans/blueprints/collab/collab_api.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 12:18:53 — codex-1
+Decision recorded: Deliver Phase 3 Temporal/HITL blueprint and Phase 5 data plane routing + event schema. Files touched: `plans/blueprints/temporal/temporal_hitl.md`, `plans/blueprints/data_plane/routing_matrix.md`, `plans/blueprints/data_plane/event_schema.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 11:58:41 — codex-1
+Decision recorded: Deliver Phase 2 blueprint artifacts (system blueprint, WIT contracts, kernel registry spec) under `plans/blueprints/`. Files touched: `plans/blueprints/system_blueprint.md`, `plans/blueprints/wit/contracts.wit`, `plans/blueprints/kernels.toml`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 11:48:37 — SIGNED_BY_AGENT
+Decision recorded: Incorporate approved open-question answers into the implementation plan and mirror to `/projects/rustyui/implementation_plan.md`. Files touched: `plans/proposed_implementation_plan.md`, `/projects/rustyui/implementation_plan.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 11:48:17 — SIGNED_BY_AGENT
+Decision recorded: Publish comprehensive review report per approved plan. Files touched: `plans/reviews/open-coreui.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 11:35:03 — SIGNED_BY_AGENT
+Decision recorded: Mirror proposed plan into `/projects/rustyui/implementation_plan.md` and provision `/projects/rustyui`. Files touched: `plans/proposed_implementation_plan.md`, `/projects/rustyui/implementation_plan.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+## 2026-01-08 11:29:06 — SIGNED_BY_AGENT
+Decision recorded: Draft proposed implementation plan in-repo due to unavailable `/projects/rustyui` path. Files touched: `plans/proposed_implementation_plan.md`, `ops/operations_history.md`, `ops/decisions.log`.

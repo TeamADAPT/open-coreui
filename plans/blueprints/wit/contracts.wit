@@ -1,0 +1,47 @@
+package rusty_ui:runtime;
+
+interface kernel_exec {
+  /// Executes a kernel with typed inputs and outputs.
+  exec: func(request: kernel_request) -> result<kernel_response, kernel_error>;
+}
+
+record kernel_request {
+  kernel_id: string,
+  kernel_version: string,
+  abi_hash: string,
+  input: list<u8>,
+  input_format: string,
+  timeout_ms: u64,
+}
+
+record kernel_response {
+  output: list<u8>,
+  output_format: string,
+  duration_ms: u64,
+  gpu_used: bool,
+}
+
+record kernel_error {
+  code: string,
+  message: string,
+}
+
+interface tool_binding {
+  /// Maps a tool invocation to a kernel execution.
+  invoke: func(tool_name: string, parameters_json: string) -> result<tool_response, tool_error>;
+}
+
+record tool_response {
+  result_json: string,
+  duration_ms: u64,
+}
+
+record tool_error {
+  code: string,
+  message: string,
+}
+
+world runtime {
+  export kernel_exec;
+  export tool_binding;
+}
