@@ -1,5 +1,9 @@
 # Decisions Log
 
+## 2026-01-08 13:04:47 — codex-1
+Decision recorded: Defer push retry after DNS failure on git remote. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 13:02:37 — codex-1
 Decision recorded: Pause GH auth retry due to network error reaching github.com. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
 
