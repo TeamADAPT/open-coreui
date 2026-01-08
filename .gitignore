@@ -27,6 +27,14 @@ Cargo.lock
 *.log
 logs/
 
+# Deploy artifacts (runtime/ephemeral)
+/deploy/*.sqlite3
+/deploy/*.sqlite3.*
+/deploy/*.db
+/deploy/*.pid
+/deploy/cache/
+/deploy/uploads/
+
 # OS
 Thumbs.db
 .Trashes
@@ -42,6 +50,9 @@ Thumbs.db
 
 # Frontend
 node_modules
+
+# Test artifacts
+/test-results/
 
 # Build artifacts
 /bin

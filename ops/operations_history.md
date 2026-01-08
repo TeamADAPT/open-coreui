@@ -1,5 +1,13 @@
 # Operations History
 
+## 2026-01-08 12:56:36 — codex-1
+Removed deploy database files from staged commit and added deploy/runtime artifacts to `.gitignore`. Files touched: `.gitignore`, `deploy/data.sqlite3`, `deploy/data.sqlite3.backup.before_restore.20260106-222333`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
+## 2026-01-08 12:53:09 — codex-1
+Staged deploy auth/db artifacts for commit. Files touched: `deploy/data.sqlite3`, `deploy/data.sqlite3.backup.before_restore.20260106-222333`, `deploy/open-coreui.env`, `deploy/init-db.sh`, `deploy/deploy-all.sh`, `deploy/start-server.sh`, `deploy/install-desktop.sh`, `deploy/open-coreui-http.service`, `deploy/validation-report.md`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 12:52:23 — codex-1
 Updated `AGENTS.md` with Git worktree and GH CLI workflow details. Files touched: `AGENTS.md`, `ops/operations_history.md`, `ops/decisions.log`.
 

@@ -1,0 +1,23 @@
+[Unit]
+Description=Open CoreUI HTTP Server
+After=network.target
+
+[Service]
+Type=simple
+User=x
+Group=x
+WorkingDirectory=/data/adapt/platform/aiml/open-coreui/deploy
+EnvironmentFile=/data/adapt/platform/aiml/open-coreui/deploy/open-coreui.env
+ExecStart=/data/adapt/platform/aiml/open-coreui/bin/open-coreui-x86_64-unknown-linux-gnu
+Restart=always
+RestartSec=5
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/data/adapt/platform/aiml/open-coreui/deploy
+
+[Install]
+WantedBy=multi-user.target
