@@ -1,5 +1,9 @@
 # Operations History
 
+## 2026-01-08 13:02:37 — codex-1
+Attempted GitHub CLI re-auth; network connection to github.com failed. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 12:59:25 — codex-1
 Attempted push failed due to DNS resolution (`github.com`). Files touched: `ops/operations_history.md`, `ops/decisions.log`.
 
