@@ -1,0 +1,18 @@
+# runtime-wasm systemd unit (template)
+# Deploy to /etc/systemd/system or ~/.config/systemd/user as needed.
+[Unit]
+Description=Open CoreUI Runtime WASM Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/data/adapt/platform/aiml/open-coreui/services
+ExecStart=/data/adapt/platform/aiml/open-coreui/services/target/release/runtime-wasm
+Restart=always
+RestartSec=5
+
+# Environment can be supplied via an EnvironmentFile if required.
+# EnvironmentFile=/data/adapt/platform/aiml/open-coreui/deploy/open-coreui.env
+
+[Install]
+WantedBy=multi-user.target

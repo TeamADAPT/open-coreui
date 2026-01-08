@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "core-api",
+  "agent-orchestrator",
+  "runtime-wasm",
+  "collab-state",
+  "evals",
+]
+resolver = "2"

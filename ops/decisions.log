@@ -1,5 +1,9 @@
 # Decisions Log
 
+## 2026-01-08 13:16:16 — codex-1
+Decision recorded: Add Rust service scaffolds and systemd templates per blueprint. Files touched: `services/Cargo.toml`, `services/README.md`, `services/core-api/`, `services/agent-orchestrator/`, `services/runtime-wasm/`, `services/collab-state/`, `services/evals/`, `deploy/systemd/`, `ops/operations_history.md`, `ops/decisions.log`.
+
+
 ## 2026-01-08 13:07:37 — codex-1
 Decision recorded: Defer push retry after DNS failure on git remote. Files touched: `ops/operations_history.md`, `ops/decisions.log`.
 
